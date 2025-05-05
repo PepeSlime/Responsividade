@@ -139,7 +139,7 @@ main{
         height: 100vh;
         background-attachment: fixed;
         margin: 0;
-        overflow-x: hidden;
+        overflow: hidden;
     }
 
 
