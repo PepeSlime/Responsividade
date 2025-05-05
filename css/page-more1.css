@@ -4,6 +4,7 @@ body{
     font-family: 'Tiny5';
     background: url('../img/background_reponsividade.jpg') center/cover no-repeat;
     height: 100vh;
+    overflow-x: hidden;
 }
 
 main{
@@ -140,9 +141,6 @@ main{
         margin: 0;
     }
 
-    .main-content{
-        gap: 10px;
-    }
 
     .title-container{
         width: 100px;
@@ -159,8 +157,9 @@ main{
     }
 
     .content{
-        width: 400px;
+        width: 370px;
         height: 300px;
+        padding: 0 10px;
     }
 
     .right-container p{
