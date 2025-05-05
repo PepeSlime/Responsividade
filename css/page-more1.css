@@ -139,6 +139,7 @@ main{
         height: 100vh;
         background-attachment: fixed;
         margin: 0;
+        overflow: hidden;
     }
 
 
@@ -157,7 +158,7 @@ main{
     }
 
     .content{
-        width: 370px;
+        width: 350px;
         height: 300px;
         padding: 0 10px;
     }
