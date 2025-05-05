@@ -131,3 +131,45 @@ main{
     width: 50px;
     height: 55px;
 }
+
+@media(max-width: 480px) {
+    body{
+        background: url('../img/back-cel.jpg') center/cover no-repeat;
+        height: 100vh;
+        background-attachment: fixed;
+    }
+
+    .title-container{
+        width: 100px;
+        font-size: 12px;
+    }
+
+    .left-container p{
+        font-size: 16px;
+    }
+
+    .left-container img{
+        width: 100px;
+        margin-top: 10px;
+    }
+
+    .content{
+        width: 400px;
+        height: 300px;
+        margin: 0 10px;
+    }
+
+    .right-container p{
+        font-size: 10px;
+    }
+
+    .right-container img{
+        width: 140px;
+    }
+
+    .second-right img{
+        width: 30px;
+        height: 30px;
+    }
+}
+
