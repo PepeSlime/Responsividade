@@ -137,6 +137,11 @@ main{
         background: url('../img/back-cel.jpg') center/cover no-repeat;
         height: 100vh;
         background-attachment: fixed;
+        margin: 0;
+    }
+
+    .main-content{
+        gap: 10px;
     }
 
     .title-container{
@@ -156,7 +161,6 @@ main{
     .content{
         width: 400px;
         height: 300px;
-        margin: 0 10px;
     }
 
     .right-container p{
